@@ -135,3 +135,78 @@ _ _ _
 ## Goal modelling
 _ _ _
 
+### Models
+1.  Abstraction from real world
+    - Support the understanding of some aspect
+2. They represent information needed for the development
+    - Do not over-elaborate
+    - Stop when there is a base for design
+3.  Support discussion between stakeholders
+4. Empowering
+    - Brings you closer to the final product
+
+### Do, be, feel lists
+1. One efficient way of eliciting requirements
+    - Complementary to interviews
+2.  Structured form of brainstorming
+3. A workshop activity involving many stakeholders
+    - Can capture viewpoints or partial views of the problem
+
+#### Preparation
+ 1. Participants
+    - Facilitator: run the activity
+    - Scribe: write down participant’s suggestions
+    - Range of stakeholders involved in the problem
+2. Resources
+    - Markers (3 different colours if possible)
+    - Whiteboard or similar – 15 to 30 minutes
+
+#### Introducing the activity
+1. Explain purpose of the session(project purpose)
+2. Explain the 4 categories
+    1. Do
+        - What should the system do?
+    2. Be 
+        - How should it be done? Constraints on features
+    3. Feel
+        - Emotional (or social) considerations or concerns regarding features
+    4. Who
+        - Types of stakeholders involved in the system
+
+#### Populating the lists
+1. Ask the audience for contributions
+2. Write down ideas under the right category 
+    - Different colours for different categories?
+3. No strict order
+4. Brainstorming principles, e.g. no filtering out
+
+#### Prioritising
+1. Optionally end the activity extracting priorities
+    - Longer session
+2. Many different techniques
+    - Pick a lean technique
+3. Do it now or later
+    - If later, your ideas will be clearer
+    - If now, stakeholders have the discussion fresh and are together to discuss inconsistent perceptions
+
+#### Close the activity
+1.  Record the results
+    - Photo? Counting dots?
+2. Thank participants
+3. Explain the process
+    - Analysis of result
+    - Return to them for clarification and feedback
+
+### Goal model
+1. Visual representation of goals and involved actors
+2. In traditional software engineering
+    - Semi-formal specification
+    - Used to derive other lower level models leading to design
+3. Our purpose
+    - Conversation starter between client and dev team
+    - Represents shared understanding of the problem
+    - Notation easy to understand for non-technical stakeholders
+4. Two possible levels
+    1. Motivate the project, describe the problem
+    2. Describe general aspects of the sought system (non-technical!)
+5. 1 and 2 combined in one diagram in some cases
