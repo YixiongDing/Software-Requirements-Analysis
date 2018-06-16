@@ -863,3 +863,105 @@ _ _ _
     - You only discuss about the ones that will be developed next
         - Just-In-Time work
     - Probably you will need to readjust as sprints go
+
+_ _ _
+## User Acceptance Testing
+_ _ _
+
+### What is UAT
+1. Client determines whether they accept the software 
+    - Fit for purpose
+    - Including quality requirements
+2. Often based on contractual agreements
+3. Just before the product is deployed
+    - In agile, before sprint review meeting
+4. Black-box type of testing
+    - Concrete examples!
+5. After the product has gone through all the other tests 
+    - Unit testing
+    - Integration testing 
+    - System testing
+
+### What to test
+1. Follow the acceptance criteria
+2. Define scenarios of usage
+    - E.g. Book an appointment for **Thursday 12 April** at **9.30am** with **Doctor Smith** at the **Parkville Clinic**
+3. Cover all key business functionalities
+    - Prioritise functionalities with higher value for client
+4. The development team runs the tests internally before going to the client
+    - Avoid surprise bugs!
+5. Two ways of running it with the client
+    - Demo based – you run it
+    - User driven – the client runs it
+
+### Test case
+Many different templates
+- Create your own with the info that you need
+- E.g. As a patient, I want to book online an appointment with my GP, so I can see availabilities and I can do it at any time
+
+<img src="test_case_table.png" alt="550" width="550">
+
+### The session
+1. Before the session
+    - Internal run of the UAT
+    - Ensure that there are no bugs 
+    - Give the client the test cases
+        - The tasks or scenarios that they will run
+2. Bring together
+    - Client
+    - QA team (or representative) – Dev team (or representative)
+3. If bugs are found, a decision has to be made
+    - Fix before going live
+    - Leave the bug in
+    - Leave it in for a future fix
+4. Result of the UAT session 
+    - Go
+    - No-go (yet)
+5. Get back to the client
+    - With answers, decisions or demos showing the fix or feedback
+
+#### Practical advice
+1. Have the demo setup ready and populated with meaningful data
+2. Tell a story (context)
+    - Perform meaningful tasks for the business
+    - In most cases you don’t need to show how you log in (just mention it) 
+    - Don’t show isolated bits and pieces
+3. Use realistic data
+    - “asdf” and “111” VS “Michael Smith” and “0412 654 741”
+    - Different values for different fields
+        - E.g. if numeric values are needed change them, “number of groups” and “number of team members per group” 
+4. Talk through the demo
+    - Have somebody else operating the machine
+5. If a form has many fields pre-fill them (or have them ready on another screen)
+6. Convince the client that you’ve done your best
+    - E.g. Test results as statistics, don’t be too technical
+
+#### Things to avoid in a session
+1. Do not base the demo on functionalities
+2. Do not start the demo with “This is how we create a user”
+    - What will the client spend 80% of the time doing?
+3. Do not spend too long filling in forms
+4. Do not use meaningless data
+5. Do not move too quickly between screens
+6. Avoid technical hiccups – practice beforehand in the same environment if possible
+    - E.g.Screenconnectors
+7. Don’t hide problems, but describe known bugs beforehand
+    - “Oh yeah, I knew that might happen...”
+8. Don’t argue/agree with the client, just record and come back to them later
+    - Can you change the colour of A?
+    - I’m pretty sure that you said you would implement X, Y and Z
+
+### Acceptance Test VS Acceptance Criteria
+1. Students often mix them up
+2. What’s the difference?
+3. Acceptance Criteria
+    - Goes with the user stories
+    - Given [some precondition], when [I do some action] then [expected result]
+    - The developer of the user story uses to decide when theyarereadyto pass on the code for testing
+4. Acceptance Test
+    - At the end of other testing
+    - OO analogy
+        - An instance of the acceptance criteria
+    - Step by step scenario
+        - Uses concrete examples
+    - To be consumed by the client
