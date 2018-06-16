@@ -67,6 +67,8 @@ _ _ _
 ### Software projects
 1. Software projects replace existing systems (even if a manual one)
 2. The system-as-is vs the system-to-be
+    - The system-as-is
+        - Reports on documentation flows, work procedures, business rules, defect and complaint reports, change requests, user manuals...
     - Often the system-to-be will interact with other software, people and processes
 3. “Easy” vs “hard” problem domains 
     - Get to know the problem domain 
@@ -509,3 +511,138 @@ _ _ _
     - Make many of them and throw them away
 2. Make a very inexpensive prototype
 3. Affordable to compare alternative solutions
+
+_ _ _
+## Elicitation techniques
+_ _ _
+
+### Questionnaires
+1. Prepare and send out a questionnaire with predetermined set of answers
+    - Multiple choice
+        - Who should be the target group of the system? 
+            - a) Students
+            - b) Young professionals 
+            - c) Young families
+    - Likert scale
+        - The app should appeal to young families the most 
+            - Strongly agree 1 2 3 4 5 Strongly disagree
+2. Obtain subjective information 
+3. Pros
+    - Low cost
+    - Remote respondents 
+    - Large pool
+4. Minuses
+    - Biased information due to
+        - Sample of people you chose to send to
+        - Subset of responses of people who chose to respond 
+        - Set of questions that you chose
+        - Set of answers that you predetermined for questions
+    - No direct in teraction with respondents
+    - No guarantee of response
+    - Hard to provide context for questions
+    - Ambiguous questions can lead to useless information
+5. It has to be carefully designed
+6. Validate questionnaires with other people to mitigate problems
+    - Statistical significance of target audience
+    - Adequate coverage of questions and answers
+    - No bias in formulation and presentation of Q&A – No ambiguity in formulations of Q&A
+7. Some implicitly redundant questions might help
+8. A complement to interviews (leading to)
+9. How many/What type of questions are you happy to answer?
+
+### Repertory grids
+1. Useful to learn more about certain concepts
+2. Have one card per concept
+3. Ask participants to characterise them with 
+    - Attributes
+    - Values (ranges) for those attributes 
+    - For instance
+
+<img src="Repertory_grids.png" alt="550" width="550">
+
+### Card sorting
+1. Useful to understand implicit classification criteria
+2. One concept percard(textorpicture)
+3. Stakeholderpartitionsthecardsintosubsets
+    - Why those groups?
+4. Useful to design simple interfaces
+    - Pieces of info needed for certain tasks
+        - What info does an instructor need to take the roll VS to request for a fill-in?
+5. How do you group options in interfaces?
+
+### Observation and ethnographic studies
+1. Observing someone doing their job might help understand the problem
+    - E.g.Explainhowtotieshoelaces
+2. Great to elicit tacit knowledge
+3. Appropriate in complex organisations or different cultural contexts
+4. Passive vs Active observation
+    - Ethnographic study: longer term, dynamics of the group, attitudes, reactions, gestures, chats, jokes...
+    - Protocol analysis: follow a protocol while explaining it
+4. Very expensive
+    - Longtime, different work conditions...
+5. Needs to create the trust so they allow for it
+6. Also, be aware of the Hawthorne effect
+
+#### Storyboards
+1. Loose-form narrative to learn:
+    - how things are (system-as-is)
+    - how things should be (system-to-be)
+2. Tell the story as a series of quick and easy-to-understand snapshots 
+    - Sentence, sketch, picture, slide, screenshot...
+3. Passive
+    - Tell a story for understanding and validation
+        - E.g. How somebody takes the roll 
+4. Active
+    – Joint effort with client for exploration
+        - E.g. How a new app would help taking roll
+5. Cover
+    - Roles
+    - What happens to them (through episodes)
+    - Why things happen
+    - What-if scenarios and (negative) consequences
+6. Starting with a script makes things easier
+
+#### Scenarios
+1. Structured storyboard form 
+    - Typically textual
+2. Uses concrete examples
+    - Easier to understand
+    – More realistic responses from the user
+        - I type in my address: “1 Flinders St, Melbourne” 
+        - VS The user types in their address
+3. Goals during RE
+    - Understanding how things are in the system-as-is
+    - Understanding how things should be in the system-to-be
+        - Used to ask specific questions
+            - How needs to received this form to approve it?
+        - Used to understand underlying motivations or goals
+            - Why can’t you send this form directly to your line manager?
+        - Used to represent desired behaviour
+            - When you click on “Generate” what exact information do you want to see?
+4. Positive vs Negative scenario
+    - Counter-example of what should not happen in the system
+    - Ask for the reasons to uncover tacit requirements
+        - After 3 unsuccessful attempts to type in PIN, the ATM returns the card
+5. Normal vs Abnormal scenario
+    - Alternative flows
+    - How many do I cover?
+        - Making a mistake typing in the PIN, electrical error in the card reader, user being robbed
+6. Advantages
+    - Concrete and easy to understand
+    - Bring to the same page stakeholders with partial views and various backgrounds
+7. Problems
+    - Partial, very hard to be comprehensive
+    - Multiple granularity levels from different stakeholders, hard to integrate 
+    - Over specification in the order of interactions (are all necessary?)
+8. They do not detail the motivation of interactions
+
+### Content analysis
+1. Data is useless if no conclusions can be drawn
+2. Often, large volume of raw data 
+    - E.g. interview transcripts
+3. There are formal definitions but in essence 
+    - Read the material to identify themes
+        - E.g. tasks of users, pain points of users...
+    - Themes depend on the purpose of the analysis
+
+_ _ _
