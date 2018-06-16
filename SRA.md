@@ -965,3 +965,134 @@ Many different templates
     - Step by step scenario
         - Uses concrete examples
     - To be consumed by the client
+
+_ _ _
+## Quality requirements
+_ _ _
+### Types of requirements 
+1. Functional
+    -  What should the system do?
+2. Non-functional (aka quality)
+    - How should the system be?
+    - What constraints should it have?
+        - Security, usability, flexibility, connectivity, privacy, reliability, extensibility . . .
+    - Might need balancing and prioritisation
+        - E.g. Security VS Usability or Performance
+3. Other less traditional non-functional requirements?
+    - Have fun, feel challenged, recognised, popular, in touch...
+    - Instagram minus social/emotional requirements?
+
+### Value driven requirement engineering
+### Non-functional requirements
+1. Define constraints on how the software-to-be
+    - should satisfy its functional requirements
+    - should be developed
+2. Not always clear separation between
+    - Functional and non-functional
+        - The safety injection signal shall be on whenever there is a loss of coolant except during normal start-up or cool down.
+    - Non-functional categories
+        - The requirement to send acceleration commands to trains at very high frequency is related to both performance and safety
+3. Often, open for discussion
+
+### Requirements taxonomies 
+1. Many types of non-functional requirements
+    - A taxonomy is useful 
+2. Taxonomiescanhelp
+    - Identify hidden requirements
+        - Do I have any confidentiality requirements in the system?
+    - Identify conflicts between requirements
+        - Any conflicts between confidentiality and usability requirements?
+3. Not exhaustive, but gives good indication of main classes of non-functional requirements
+
+#### One taxonomy
+<img src="taxonomy.png" alt="550" width="550">
+
+#### Safety
+Safety requirements are quality requirements that rule out software effects that might result in accidents, degradations or losses in the environment
+- The controlled accelerations of trains shall always guarantee that a worst-case stopping distance is maintained between successive trains.
+
+#### Security
+Security requirements are quality requirements that prescribe the protection of system assets against undesirable environment behaviours.
+1. **Confidentiality** requirements state that some sensitive information may never be disclosed to unauthorized parties.
+    - A non-staff patron may never know which books have been borrowed by others.
+2. **Integrity** requirements state that some information may be modified only if correctly done and with authorization.
+    - The return of book copies shall be encoded correctly and by library staff only.
+3. **Availability** requirements state that some information or resource can be used at any point in time when it is needed and its usage is authorized.
+    - Information about train positions shall be available at any time to the vital station computer.
+
+#### Reliability
+Reliability requirements constrain the software to operate as expected over long periods of time. Its services must be provided in a correct and robust way in spite of exceptional circumstances.
+- The train acceleration control software shall have a mean time between failures of the order of 100 hours.
+
+#### Performance
+Performance requirements are quality requirements that constrain the software’s operational conditions, such as the time or space required by operations, the frequency of their activation, their throughput, the size of their input or output and so forth.
+- Acceleration commands shall be issued to every train every 3 seconds.
+- The new e-subscription facility should ensure a 30% cost saving.
+
+#### Interface
+Interface requirements are quality requirements that constrain the phenomena shared by the software-to-be and the environment
+- static and dynamic aspects of software- environment interactions
+- input/output formats 
+- interaction sequences
+
+#### Useability and Convenience
+1. Useability requirements prescribe input/output formats and user dialogues to fit the abstractions, abilities and expectations of the target users.
+    - The format for bibliographical queries and answers shall be accessible to students from any department.
+2. Other human interaction requirements may constrain software effects so that users feel them to be ‘convenient’ in some system-specific sense.
+    - To ensure smooth and comfortable train moves, the difference between the accelerations in two successive commands sent to a train should be at most X.
+
+#### Interoperability
+#### Accuracy
+#### Compliance
+#### Architectural
+#### Development
+
+### ISO/IEC 25010:2011
+1. ISO – International Organisation for Standardisation
+2. IEC – International Electrotechnical Comission
+3. Develop, maintain and promote standards for IT and ICT
+4. Systems and software engineering -- Systems and software Quality Requirements and Evaluation (SQuaRE) -- System and software quality models
+5. A product quality model
+    - Static properties of software and dynamic properties of the system 
+    - Refers to computer system and software product
+6. A quality in use model
+    - Outcome of interaction when a product is used in a particular context of use
+    - Refers to human-computer system
+
+### Software product quality model 
+#### Functional suitability
+#### Reliability
+#### Operability
+#### Performance efficiency
+#### Security
+#### Compatibility
+#### Maintainability
+#### Transferability
+
+### Software quality in use
+#### Effectiveness 
+The accuracy and completeness
+with which users achieve specified goals
+
+####  Efficiency
+The resources expended in relation to the accuracy and completeness with which users achieve goals
+
+#### Satisfaction
+The degree to which users are satisfied with the experience of using a product in a specified context of use
+- Likability
+- Pleasure 
+- Comfort 
+- Trust
+
+####  Safety 
+The degree to which a product or system does not, under specified conditions, lead to a state in which human life, health, property, or the environment is endangered
+- Economic damage risk
+- Health and safety risk
+- Environmental harm risk
+
+#### Usability
+The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use
+- Learnability
+- Flexibility
+- Accessibility
+- Context conformity
