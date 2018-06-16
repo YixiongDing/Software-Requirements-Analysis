@@ -107,7 +107,7 @@ _ _ _
     - Scoping with client, bringing together various viewpoints, resolving conflicting requirements, prioritizing requirements
 5. Validation
     - Ensuring the specification is correct, unambiguous, and free of inconsistencies. Validate with stakeholders to establish baseline
-6. Requirementsmanagement
+6. Requirements management
     - Maintain changes in requirements throughout the lifecycle of the system
 
 ### An agile process
@@ -646,3 +646,220 @@ _ _ _
     - Themes depend on the purpose of the analysis
 
 _ _ _
+## Agile and Agile Requirements
+_ _ _
+
+### Limitations of classic development methods
+1. Heavyweight development processes(e.g. waterfall)
+    - Too slow
+    - Too much documentation
+    - Too hard to adapt to changes
+    - Very hard to freeze requirements
+    - Typical requirements document: IEEE 830/1998 SRS 
+        - Software Requirements Specification
+2. Too often projects run over-time, -budget, or worse...
+
+### Agile principles 
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
+2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage
+3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale
+4. Business people and developers must work together daily throughout the project
+5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done
+6. The most efficient and effective method of conveying information to and within a development team is face- to-face conversation
+7. Working software is the primary measure of progress
+8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely
+9. Continuous attention to technical excellence and good design enhances agility
+10. Simplicity - the art of maximizing the amount of work not done - is essential
+11. The best architectures, requirements, and designs emerge from self-organizing teams
+12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly
+
+### An agile process
+<img src="agile_process.png" alt="550" width="550">
+
+### Scrum
+1. One of many different versions of agile
+    - Do your shopping to find which flavour you like best
+    - You'll have to adapt to the method used by your (future) employer
+2. Hard to completely understand the problem from the beginning
+3. Requirements are volatile, hard to predict
+4. Not realistic to stick to a plan regardless
+5. Accept this and be quick to adapt 
+    - Unexpected new requirements
+    - New technologies
+    - New market conditions
+
+### Scrum Roles
+#### Product owner
+1. Defends the client's interests
+2. Writes user stories
+3. Defines when a user story is “done”
+4. Prioritises user stories
+5. Adds user stories to backlog per sprint
+6. Stays away from technical aspects of development
+
+#### Scrum master
+1. Ensures integrity of Scrum process
+2. Facilitates team events
+3. Steers team towards improvement
+4. Manages backlog and determines the completion of tasks
+5. Promotes self-organisation of team 
+    - Micromanages at times
+
+#### Development team 
+1. Self-organised
+2. Analyse, design, develop, test. . .
+3. Should be capable of tackling complete iterations
+
+### Agile meetings
+<img src="agile_meetings.png" alt="550" width="550">
+
+#### Sprint planning meetings 
+1. 1 hour per week/sprint
+2. Roles
+    - Scrum master 
+        - facilitates
+    - Product owner
+        - clarifies requirements
+        - defines acceptance criteria 
+        - resolves dependencies
+    - Entire agile team
+        - determine effort involved
+3. Define the sprint backlog
+    - Correct story size (vertical slice)
+    - Consider sprint duration, velocity, priorities, item size
+
+#### Daily stand-up meeting
+1. Daily (first thing?), but in 15 minutes or less • It’s not a problem solving meeting
+2. Each member commits to each other
+3. Daily stand up
+    - What did I do yesterday?
+    - What am I doing today?
+    - Any impediments in my way?
+4. Do I need help or solve dependencies?
+
+#### Sprint review meeting 
+1. About 30 minutes per sprint
+2. Demo a product improvement
+    - A live demo, not a report!!
+    - Ideally with the client to get valuable feedback
+3. Assess only items that are completed 
+    - Including QA, i.e. shippable features
+4. Incomplete items go back to product backlog
+5. Product owner rethinks priorities 
+    - New scope might take priority
+
+#### Retrospective
+1. Last thing of each sprint – about 1 hour
+2. Always possible to improve
+3. Everyone
+    - What is not working and we should stop doing?
+    - What are doing well and should keep on doing?
+    - What should we start doing?
+4. After the brainstorm vote decisions for next sprint
+
+### Product backlog
+1. Requirements structure in Scrum
+2. What will be delivered
+    - In the order that it will be delivered
+3. At the beginning of a sprint, items
+    - Move to Sprint Backlog
+    - Only ready the ones that can be completed in one sprint
+4. If too big for one sprint, they will need decomposing
+5. Continuously evolving
+    - Initially only well-understood requirements
+    - Dynamic changes to keep the product competitive and useful
+    - Change with business requirements, market or technology changes 
+    - The ones at the top (higher priorities) have better estimates
+6. Ordered by the product owner depending on
+    - Client’s priorities – what gives more value to the client
+    - Dependencies
+
+### Priorities in agile
+1. Many approaches, choose what works best for the team
+2. Order in product/sprint backlog
+3. MoSCoW
+    - M: Must
+        - Essential for the success of the project
+    - S: Should
+        - High priority, often critical, but if absolutely necessary can be do somehow else
+    - C: Could
+        - Desired but not essential, if time allows
+    - W: Won’t
+        - Will not happen for certain release, maybe for the future
+4. Cumulative voting
+    - Stakeholders distribute limited resources across features (e.g. dots, $...)
+5. Priority = Urgency X Value
+    - Urgency: time constraints, dependencies...
+    - Business value: important for many customers, impact on brand or reputation, competitive advantage
+
+### User stories in the product backlog
+1. User stories relate directly to user’s required features
+    - E.g.compare“buyabook”vs“login”
+2. There are standard formats, for instance
+    - [num] As a [role], I want to [do something], so that [I get some benefit] [Weight]
+        - IDs are good to refer to items in lists of user stories, quality requirements... 
+3. Acceptance criteria
+    - Describe when a user story has been completed (“done”)
+        - Only when a story is done, it can be demoed
+        - Completing it also means that it has undergone QA
+    - Defined at the same time that user stories are written
+        - By the product owner
+4. A useful template
+    - Given [some precondition], when [I do some action] then [expected result]
+
+#### Example of user story
+1. As a customer, I want to withdraw cash from an ATM So that I don't have to wait in line at the bank.
+2. Given that the account has credit And the card is valid And the dispenser contains notes, When the customer requests the cash Then ensure the account is debited And ensure cash is dispensed And ensure the card is returned.
+
+#### Sizes of user stories
+1. User stories have story points(orsizes, weights)
+    - How much effort is associated to its implementation
+    - Many metrics for story points
+        - E.g. Fibonacci numbers, T-shirt sizes
+        - Their purpose is for comparison
+        - Hard to estimate well without much experience and knowing well your team
+2. Each agile team should know how much weight they can pull per sprint
+    - Team Velocity changes while teams adjust to each other
+    - Velocity = number of story points per sprint
+    - Target is that the estimated story points and completed story points converge
+
+#### Granularity of user stories
+1. Not all user stories have the same granularity
+1. A good taxonomy
+    - Epic > Feature > Technical User Story > Tasks
+    - Epic
+        - Big picture, high-level overview of functionality
+        - Epics provide new services, as an aggregation of features
+        - Measured in story points
+    - Feature
+        - More detailed than epics but too large to be implemented
+        - Capability or a slice of business functionality meaningful to a customer, as an aggregation of technical user stories
+        - Measured in story points
+    - Technical user story
+        - Something of business value that can be done in one sprint, as an aggregation of tasks 
+        - As a..., I want to..., so that...
+        - Measured in story points
+    - Tasks
+        - Describe steps to build some user story
+        - Measured in hours
+        - Not in the product backlog (only in sprint backlog)
+
+##### Example of taxonomy 
+1. Epic
+    - Manage banking accounts online
+2. Feature
+    - Transfer funding to other accounts
+3. Technical User Story
+    - As a patron of the bank I want to pay bills from my online bank so that I don’t need to go to the bank to do it
+4. Task
+    - Store the details of a new Payee
+
+#### Practical applications of user stories
+1. Conversation starters
+    - Between dev team and product owner to clarify needs 
+    - Incomplete requirements until discussed
+2. In practice:
+    - The priority and weight are important
+    - You only discuss about the ones that will be developed next
+        - Just-In-Time work
+    - Probably you will need to readjust as sprints go
