@@ -210,3 +210,175 @@ _ _ _
     1. Motivate the project, describe the problem
     2. Describe general aspects of the sought system (non-technical!)
 5. 1 and 2 combined in one diagram in some cases
+
+#### Elements of a goal model
+1. Functional goals
+    - High level functional requirements 
+    - Parallelograms
+    - Actions – start with verbs
+2. Quality goals
+    - Non-functional requirements
+    - Clouds
+    - Adjectives – qualify the functionalities
+3. Emotional goals
+    - Social issues, personal values, non-traditional quality requirements 
+    - Hearts
+    - I want to feel...
+4. Concerns
+    - Risks, conflicting views... - things to take into account during the project – Spades, inverted hearts
+5. Roles
+    - Actors responsible for goals or involved in them
+
+#### Hierarchy of functional goals
+1. Top-down
+    - More general to more specific
+    - Answer how the super-goal will be achieved/decomposed?
+2. Bottom-up
+    - Specific to general
+    - Answer why the sub-goal is done?
+
+#### Example of goal model
+<img src="goal_model.png" alt="550" width="550">
+
+### Starting point
+1. A collection of key concepts in the domain
+    - From interview analysis
+    - From other elicitation mechanisms 
+        - E.g. do, be, feel lists
+2. Review as a teamf or
+    - Ambiguities – multiple interpretations
+    - Redundancy
+    - Need for clarification
+3. Note all assumption to check with clients later
+
+### Do, be, feel lists / goal model mapping
+If using the list workshop
+1. Do list
+    - unctional goals
+2. Be list
+    - quality goals
+3. Feel list
+    - emotional goals 
+    - concerns/risks
+4. Who list 
+    - roles
+
+### Creating the hierarchy
+### Adding qualities and emotions
+### Feedback from the client
+### Frequent issues
+
+_ _ _
+## Personas
+_ _ _
+
+### What are personas?
+1.  A model of users
+    - Not real but based on real data
+2. Describe a group of users
+    - What they want to accomplish 
+    - What are their motivations
+    - How they behave
+    - How they think
+3. Informtheproductdesign 
+    - Ideation
+    - Validation of design concepts
+
+### Choosing your audience
+1. Designing broad functionalities to reach a wide audience
+    - Many features
+    - Increase cognitive load
+    - Make the interaction harder
+2. Choose right individuals to design for 
+    - Represent the needs of large groups
+    - Prioritise their needs
+    - If possible satisfy secondary users
+
+### Strengths of personas
+1.  Determine what the product should do and how it should behave
+2. For discussion with stakeholders – simple
+3. “In vitro” user testing
+4. Marketing tools
+5. Avoid
+    - Designing for a generic user
+    - Developer’s goals
+    - Edge cases – how often this function will be used?
+
+### Effectiveness of personas
+1. Based on research on real people
+2. Engage the empathy of the design and the development team around the users’ goals
+3. If well done make developers care more about making them happy with a better experience
+
+### Personas are not...
+1. Not anaverage user
+    - Exemplary or definite behaviour within the range 
+    - E.g. make between $50k-$70k p.a.
+2. Not stereotypes
+    - Antithesis of well-developed personas
+    - Result of the developers’ biases and assumptions – E.g. all older adults are bad with technology
+3. If not sufficient evidence
+    - Might need supplementary data
+    - Err on the side of diversity (gender, ethnic, age...)
+
+### A complete process for persona creation
+1. Group interview subjects by role
+2. Identify behavioural variables
+3. Map interview subjects to behavioural variables
+4. Identify significant behaviour patterns
+5. Synthesize characteristics and define goals
+6. Check for completeness and redundancy
+7. Designate persona types
+8. Expand the description of attributes and behaviours
+
+### Goals of personas
+1. Goals are drivers(motivations) behind people’s behaviours
+    - Why does somebody perform certain tasks?
+    - Personas must have goals related to the system
+2. Answer to why and how a persona would use a product
+    - Great help for the developer to keep the big picture
+3. Identified and summarised in one sentence
+4. 3 types of goals related to how we process emotions
+
+### How does our brain process emotions?
+Three levels:
+1. Visceral
+    - Look&Feel
+    - Immediate impact, fast
+    - Consistent for most people
+2. Behavioural
+    - Use and experience of a product
+    - Related to functionality, performance and usability 
+    - Consistent for most people
+3. Reflective
+    - Meaning of a product and its use, over time 
+    - Related to culture and self-image
+    - Non-consistent for most people
+
+#### Personas’ experience goals
+1. Visceral level of cognitive processing
+2. Visual appearance and other senses
+    - Designing for affect – emotional response for the particular context
+    - Often beautiful, but not always (E.g. music player VS banking app)
+3. How the user wants to feel
+    - Smart, in control, fun, reassured about security, relaxed, focused and alert...
+
+#### Personas’ end goals
+1. Behavioural level of cognitive processing
+2. The behaviour of the system should complement the users’ behaviour and mental process
+3. What the user wants to do (motivation for using the system)
+    - Be aware of problems before they become critical 
+    - Stay connected with friends
+    - Find music that I love
+    - Get the best deals
+
+#### Personas’ life goals
+1. Reflective level of cognitive processing
+2. Designing for building long-term relationships
+    - Very hard to create personal or cultural associations 
+        - Sony Walkman, iPhone, Facebook
+3. Who the user wants to be
+    - Deep drives and motivations
+    -  Explains why the user wants to achieve the end goals
+        - Live the good life
+        - Succeedinmyambitionsto...
+        - Be attractive, popular, respected...
