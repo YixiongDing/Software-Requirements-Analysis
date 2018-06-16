@@ -1,5 +1,5 @@
 # Software Requirements Analysis Notes
-
+
 Summary is wriiten by Yixiong Ding  
 The University of Melbourne  
 June, 2018   
@@ -257,9 +257,14 @@ If using the list workshop
     - unctional goals
 2. Be list
     - quality goals
+    - Traditional non-functional requirements
+        - Performance, security, robustness, reliability...
+    - Other quality factors (some might be related to the above 
+    - Mobile, visual, immediate
 3. Feel list
     - emotional goals 
     - concerns/risks
+    - Engaged, empowered, connected, hopeful, normal
 4. Who list 
     - roles
 
@@ -441,3 +446,66 @@ Three levels:
 3. Political personas are a good example of this 
     - To address stakeholders assumptions
 4. Others: customer, served or negative
+
+### Personas in the development lifecycle
+ Use your personas!
+1. Ideation
+    - Talk about the functionality that they need
+2. Base the design on their particularities 
+3. Sounding board while designing
+    - Would Peter like this? 
+4. Evaluation
+    - Pre-user testing 
+5. Sell your product
+    - Present your work to client or third parties
+
+_ _ _
+## Paper prototypes
+_ _ _
+
+### Paper interfaces
+1. Quick drawing of the interface
+2. Users test it
+    - Explain scenario
+    - Ask them to perform a task
+2. Encourage users to talk aloud 
+    - Explain their intentions
+    - Explain their actions 
+    - Ask questions
+3. Take notes! (or video)
+
+### Interactive paper interfaces
+1. Static VS Interactive
+2. Very simple technique
+3. Interactions cause changes 
+    - Replace the sketch
+4. Example of mechanism (Buxton) 
+    - No content
+    - Focus on interaction 
+    - Easy to replicate
+
+### Use them for ideation
+### Use them for early user testing
+### Use them for usability testing
+### Paper prototypes for co-design
+1. Collaborate with the client to create the paper prototype
+    - Hand-drawn, not printed
+2. Bring screen templates and cut-outs of interface elements
+    - Buttons, search bars, maps...
+    - If in a rush, find mockups of elements in the Internet
+3. Work with the client to position them 
+    - Encourage think-aloud
+4. Create more elements on the fly 
+    - Be prepared with paper, pens...
+5. End up with a “perfect interface” for the client
+### On multiple versions
+### How people think
+### Wrapping up
+1. Intended to be rough sketches
+    - Reinforces the idea of not being finished • Don’t use a computer if possible
+    - Very quick
+        - A couple of minutes to draw an interface 
+        - Don’t use rulers (make them look rough)
+    - Make many of them and throw them away
+2. Make a very inexpensive prototype
+3. Affordable to compare alternative solutions
