@@ -382,3 +382,62 @@ Three levels:
         - Live the good life
         - Succeedinmyambitionsto...
         - Be attractive, popular, respected...
+4. They won’t directly affect the development but a system that gets people closer to their life goal will be highly successful
+
+### Behavioural patterns
+1. How does somebody behave in relation to some aspect relevant for the system?
+2. Each behavioural pattern covered by a different persona
+3. Avoid redundant behavioural patterns – If two personas behave similarly
+    - No value to understand more about the system – In some cases redundancy is useful
+4. Based on behavioural variables
+
+#### Behavioural variables
+1. Useful to find the behavioural patterns
+    - Typically not just demographics
+2. They hold a range of values
+    - E.g.Education: Noeducation, Secondary, Undergrad, Postgrad, PhD
+        - Discrete values
+    - E.g.Computer use skill: Value between not at all to highly skilled
+        - Continuous 
+3. Look at
+    - Activities: what the user does, how often
+    - Attitudes: what the user thinks about domain and technology 
+    - Aptitudes: users’ education and learning ability
+    - Motivation: why is the user engaged in the problem
+    - Skills: users’ abilities related to domain and technology
+#### Significant behavioural patterns
+1. Based on real data
+    - Identify relevant behavioural variables
+    - Define behavioural patterns as combination of variables values with logical connection
+2. E.g. a music app
+    - Doing sports more than 3 times per week, listening to music while being active
+    - Doing sports less than once per week, listening to music to relax
+3. Can you eliminate behaviours and get the same result?   
+    - Irrelevant variables for persona creation
+    - Compare
+        - Listening to music and regularly buying music 
+        - Listening to music and being vegetarian
+### Defining a persona
+
+### Types of personas
+
+#### Primary
+1. Main target, one per interface
+    -  E.g. healthcare IS, one for medical, one for financial
+2. The primary person must be satisfied with the design • Other personas will not be dissatisfied
+3. If unclear which one is the primary persona, define multiple interfaces
+4. If there are several primary personas for a customer product, the scope is too broad
+5. The primary persona is not necessarily the largest segment market
+    - E.g. OXO Good Grips for people with arthritis
+
+#### Secondary
+1. Mostly satisfied with the primary persona’s interface
+2. Additional needs that do not upset the primary persona’s – Not always necessary
+3. Design first for the primary then adjust for the secondary
+
+#### Supplemental
+1. Their needs are represented by a combination of those for
+2. No need for further adjustment
+3. Political personas are a good example of this 
+    - To address stakeholders assumptions
+4. Others: customer, served or negative
