@@ -1187,3 +1187,86 @@ General technical writing applied to RE – Identify the audience and write acco
 8. Poor modifiability
 9. Opacity
 
+_ _ _
+## Digital prototypes
+_ _ _
+
+### What are digital prototypes
+1. AKA Wireframes
+2. Lay out of an application that shows the key interface elements that will be created
+3. Shows navigation to ensure expectations are met
+4. Do them *early* in the development project
+    - Easy to change
+5. Natural next step after paper prototypes 
+    - Refined version
+    - Client can “have a play” on their own time
+    - Client feels that “things are moving on” 
+        - Sense of progression
+
+### Purpose
+1. Enable the client to interact with the system 
+    - Focus on functionality of system
+    - Show navigation and interactions
+2. Important that the client understands that they are only the skeleton of the system
+    - A proof of concept
+    - Not the final product, but if possible 
+        - Fonts
+        - Colourschemas
+        - Artwork
+3. Risk of clients believing that it’s the final thing 
+    - Many tools have “sketched looks”
+
+### Examples of sketched interfaces
+<img src="digital_prototype.png" alt="550" width="550">
+<img src="digital_prototype_2.png" alt="550" width="550">
+
+### Conversation starters
+### Uses of digital prototypes
+1. Ideation
+    - Produce as many potential solutions as possible
+    - Discard the bad ones, keep and refine the good ones
+2. For usability testing
+    - Users perform tasks on the digital prototype based on certain scenario
+3. What do you want to get out of them?
+    - Low- VS High-fidelity
+
+#### Low-fidelity digital prototype
+1. Show only
+    - Major navigation elements 
+    - Major content elements
+2. Don’t show 
+    - No colours
+    - No images
+    - No meaningful contents 
+    - Generic fonts
+3. Your paper prototype was low-fidelity
+
+#### High-fidelity
+1. Start getting into UI design territory
+2. Closer to what the final version would look like
+3. Include navigation as click through
+4. Realistic data and images are important
+5. Your navigable prototype will be high-fidelity
+
+### Practical tips 
+1. Keep them simple
+    - Eventually will be thrown away 
+2. Use a grid
+    - To ensure that everything is well aligned
+3. Add meaningful and concise annotations
+    - People refer to it all the time
+4. Encourage feedback
+    - From dev team and client
+
+### How they fit in SWEN90009
+1. During the RE process
+    - Paper prototypes building – with the client
+    - Paper prototypes video to synthesise the interactions
+    - Feedback from client
+        - Online or F2F
+    - Digital prototype (high-fidelity prototypes)
+    - Feedback from client
+        - As comments in Confluence
+2. At development time
+    - Digital prototype will be replicated for the final system
+        - During the sprints
