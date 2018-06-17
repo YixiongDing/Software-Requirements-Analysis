@@ -1096,3 +1096,94 @@ The extent to which a product can be used by specified users to achieve specifie
 - Flexibility
 - Accessibility
 - Context conformity
+
+_ _ _
+## Technical natural language
+_ _ _
+
+### Qualities of good writing
+### Specifying requirements
+1. Elicited requirements
+    – Precisely specified and documented
+2. Aboutthesystem-to-be
+3. Help discussion between 
+    - Clients
+    - Development team
+4. Range of formality
+    - Informal – e.g. natural language
+    - Semi-formal – e.g. domain diagrams
+    - Formal – e.g. logic or maths based languages
+
+### Natural language • Firstobviouschoice
+1. Pros
+    - No limitations in expressiveness
+    - No communication barrier – No special training required
+2. Cons
+    - Inherently ambiguous
+    - Prone to many types of defect types 
+        - Errors – jeopardise the project, failure 
+        - Flaws – delay the project
+
+### Stylistic rules for natural language specification
+General technical writing applied to RE – Identify the audience and write accordingly
+- Say what you are going to do before doing it – Motivate first, summarize after
+- Define concepts before using them
+- One requirement per sentence
+- Keep sentences short
+- Avoid unnecessary jargon and acronyms
+- Use ‘shall’ for mandatory and ‘should’ for desirable statements
+- Use examples to clarify abstract statements
+- Use bulleted lists for explaining related items that detail
+- Use diagrams to simplify complex textual descriptions
+- Use figures to provide visual overviews and emphasize key points
+- Use tables to collect related facts
+- Always refer to figures and tables from the main text
+- Avoid complex combinations of conditions with nested or ambiguously associated conditions
+
+### Errors in requirements
+1. Omission
+    - Problem space aspect feature not stated by any requirement
+        - Missing objective, requirement or assumption • Unstated software response to some input
+    - Very hard to detect
+        - No requirement about the expected state of train doors in case of emergency stop
+2. Contradiction
+    - Requirements defining a problem space feature in an incompatible way
+    - Often, related to conflicting viewpoints
+        - Train doors must always be kept closed between stations
+        - Train doors must be opened once a train is stopped after an emergency signal
+3. Inadequacy
+    - Requirement not adequately stating a problem world feature
+        - If a book copy has not been returned one week after the third reminder has been issued, the negligent borrower shall be notified that he or she has to pay a fine of £ X
+        - If a book has not been returned one week after the third reminder has been issued, a fine of £ X shall be retained from the borrower’s registration deposit and a notification will be sent to the borrower
+4. Ambiguity
+    - Requirement allowing a problem space feature to be interpreted in different ways – e.g. ambiguous term or statement.
+        - Train doors shall be opened as soon as the train is stopped at a platform
+            - The front of the train is (stopped) at a platform or The whole train is (stopped) at a platform?
+    - Unmeasurability
+        - Requirement stating a problem world feature in a way that cannot be precisely compared with alternative options, or cannot be tested or verified in machine solutions
+            - Information panels inside trains shall be user-friendly
+
+### Quality factors in requirements
+1. Completeness
+2. Consistency
+3. Adequacy
+4. Unambiguity
+5. Measureability
+6. Pertinence
+7. Feasibility
+8. Comprehensibility
+9. Good structuring
+10. Modifiability
+11. Traceability
+
+### Flaws in requirements
+1. Noise
+2. Overspecification
+3. Unfeasibility
+4. Unintelligibility
+5. Poor structuring
+6. Forward reference
+7. Remorse
+8. Poor modifiability
+9. Opacity
+
