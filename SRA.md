@@ -265,7 +265,7 @@ _ _ _
 ### Do, be, feel lists / goal model mapping
 If using the list workshop
 1. Do list
-    - unctional goals
+    - functional goals
 2. Be list
     - quality goals
     - Traditional non-functional requirements
