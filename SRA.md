@@ -1537,3 +1537,99 @@ Various techniques
     - Decomposition of features as a tree
 5. Traceability database
     - Stores all traceability info
+
+_ _ _
+## User Journeys
+_ _ _
+
+### What are user journeys?
+1. User or Customer journey
+    - Scenario depicting how a user/customer interacts with the existing product or product being designed
+    - Narrative or visual
+    - Based on client research
+2. Told from the perspective of the client
+    - Many stakeholders in the company, who has the whole picture?
+    - Helps improving the client experience and finding new features to develop
+3. Consider the complete user experience
+    - Not just the software, but the whole package
+    - Look at building up satisfaction, trust, loyalty...
+        - Not just based on transactions
+
+### Uses
+1. Consider the audience (dev team VS executive level)    
+    - Technical VS non-technical
+    - Level of detail
+    - Scope – how much of the story
+    - Purpose
+        - E.g. identify new feature VS why are we losing clients?
+2. Understand users’ behaviour
+    - How they currently interact with the system 
+    - What are the pain points?
+3. Demonstrate how the system could be used 
+    - High level of functionality
+    - As a narrative
+    - Sell your vision
+
+### Business goals for user journeys 
+1. Change focus of organisations
+    - Is the company letting internal processes affect the consumer experience?
+        - E.g. workflow of information -> 24h delay for transactions 
+2. Break down silos
+    - Marketing does not talk to Accounting
+3. Ownership of touch points to departments
+    - Who is responsible for addressing a pain point?
+4. Target specific (high priority or new) customer
+5. Understand quantitative data
+    - What are the numbers trying to tell us in terms of client behaviours?
+
+### A deconstructed user journey
+<img src="deconstructed_user_journey.png" alt="550" width="550">
+
+### Key elements
+1. Persona
+    - Who is the journey about?
+    - Only one persona per journey
+    - E.g. A persona client of online banking app 
+2. Scenario
+    - What is the experience to represent 
+        - Current or exploratory?
+    - Based on the user’s goal (but aligned with business goal)     - E.g. Pay an overdue bill
+3. Stages
+    - Main steps leading to achieving the goal(as timeline)
+        - E.g. Receiving the bill, paying the bill, receiving confirmation, request a refund 
+    - How does a stage lead to the next one?
+
+4. Actions, thoughts and emotions
+    - Based on the research
+    - Detail depends on the purpose
+        - E.g. Customer introduces the details in the app, feels annoyed because of the extra cost
+        - E.g. Confirmation messages points to an error, thinks that need to get in touch with the bank
+5. Touchpoints
+    - Make explicit when the user interacts with the company
+6. Channels
+    - Make explicit how the user interacts with the company 
+    - In particular by means of technology
+7. Opportunities
+    - What can be improved in the experience?
+    - Any gaps?
+        - There is no way in the app to lodge a complaint
+8. Ownership
+    - Who (e.g. department) is responsible for improving the experience?
+        - Client relationships department need to look into it
+
+### Many more formats
+<img src="user_journey_1.png" alt="550" width="550">
+<img src="user_journey_2.png" alt="550" width="550">
+
+### If you want to use them later on
+1. If you realise that they could be useful for your job
+2. Early in the development process
+    - Based on personas
+    - Feed later artefacts (e.g. prototypes)
+3. The personas will be a very good starting point, providing
+    - Users’ goals
+    - Motivations
+    - Current pain points
+    - Overall character
+    - Main tasks to achieve
+4. One user journey per persona
