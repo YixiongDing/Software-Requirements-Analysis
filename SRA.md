@@ -558,7 +558,7 @@ _ _ _
     - Values (ranges) for those attributes 
     - For instance
 
-<img src="Repertory_grids.png" alt="550" width="550">
+<img src="repertory_grids.png" alt="550" width="550">
 
 ### Card sorting
 1. Useful to understand implicit classification criteria
