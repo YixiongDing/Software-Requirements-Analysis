@@ -1396,3 +1396,144 @@ _ _ _
     - No hard positions if you want to avoid conflict
 6. It's not personal, focus on the problem
 7. When a decision is made, commit and move on
+
+_ _ _
+## Validation and Traceability
+_ _ _
+
+### Requirements validation
+1. AKA requirements quality assurance
+2. From a Waterfall perspective
+3.  Happens as soon as specification / documentation is (partially) completed
+4. Aim at finding errors and flaws 
+    - Incorrectness
+    - Incompleteness
+    - Inconsistency
+    - Ambiguity...
+5. Best identify all problems before moving to next stage
+    - Cost of errors increments with time
+
+### A validation process
+A general (common sense approach) 
+- Identify defects
+- Report them
+- Analyse the cause
+- Take actions to fix them
+    - Improved documentation
+
+### Approaches for requirements validation 
+Various techniques
+1. Queries on a requirements database
+    - Requirements in semi-formal language in DB
+        - E.g. diagrams
+    - Queries check some structural consistency and completeness
+2. Animation-based validation
+    - Executable formal language
+    - Events as input to assess behaviour of spec (targeting adequacy)
+3. Formal verifications
+    - Formal language
+    - Type consistency checks, completeness on decision tables...
+4. Inspections and reviews
+
+### Inspections and reviews
+1. Widest applicability and scope
+2. Applicable to any spec format 
+    - Textual requirements
+    - Diagrams
+    - Formal specifications
+3. In short, ask people to look at requirements to find problems
+4. Potentially time consuming
+
+### Inspection process
+1. Varying degree of formality
+    - Internal inspection VS External reviewers
+2. A formal process
+    - Inspection planning
+    - Individual reviewing
+    - Defect evaluation at review meeting
+    - Documentation consolidation
+
+<img src="inspection_process.png" alt="550" width="550">
+
+### Inspection planning
+### Individual reviewing
+1. Each inspector looks for defects 
+    - Whole documentation
+    - Part of it
+2. Various ways of doing it
+    - Free mode
+        - No instructions of: which part of the spec or what type of errors
+        - Relies on personal expertise
+    - Checklist based
+        - Follow a checklist of questions or items
+        - Directions on what sections to look at
+    - Process based
+        - Spec split between inspectors
+        - Different roles and perspectives
+            - E.g. look at safety, performance, domain role... 
+        - Specific checklists
+        - Specific procedures
+            - E.g. different response depending on type of defect
+
+### Defect evaluation and spec consolidation 
+1. At review meetings
+    - Defects collected and discussed before acceptance
+        - Eliminate false positives
+    - Identifies the causes of the defects
+    - Identifies problems in the RE process
+    - Recommends actions
+2. Requirements documentation revised to include recommendations
+
+### Type of checklists
+1. Defect-based
+2. Quality-based
+3. Domain-based
+4. Language-based
+
+### Guidelines
+1. Identify objective facts, not opinions
+2. Constructive criticism, not offensive
+3. Light weight report that allows for free comments
+4. Inspection team different from spec team
+5. Include multiple viewpoints and backgrounds
+6. Initiate it once the spec is stable
+7. Focus on critical aspects of the system
+8. Focus on aspects presenting more errors and dependent parts
+
+### Traceability
+1. The system-to-be will probably have to evolve 
+    - New technologies
+    - New policies
+    - Changes in the business model...
+2. Prepare for change from the beginning of the project
+3. Traceability allows to propagate changes along all artefacts in the lifecycle
+    - Where does the item come from?
+    - Why and where does it go?
+    - What will it be used for and how?
+    - Follow the life of the requirement **backwards** and **forwards**
+    - Traceability can be **vertical** and **horizontal**
+
+### Traceability diagram
+<img src="traceability_diagram.png" alt="550" width="550">
+
+### Traceability links
+1. Dependency
+2. Variant
+3. Revision
+4. Use
+
+### Maintaining traceability
+1. Many alternative methods
+2. Cross references
+    - Unique identifiers
+    - Index or tagging to link elements to others 
+    - No semantics
+3. Traceability matrix
+    - Columns and rows are the items
+    - For just one type of relation
+    - Back and forth
+    - Large are unmanageable and prone to errors
+4. Feature diagram
+    - Decomposition of features as a tree
+5. Traceability database
+    - Stores all traceability info
