@@ -60,6 +60,15 @@ _ _ _
 14. Non-verbal cues
 15. Don’t fear silence
 
+### Focus groups
+1. Interviews with more than one participants
+2. Will save time, larger pool of opinions
+3. Risky if there are alpha individuals
+    - They will bias the discussion
+    - Less dominant individuals will not express different opinions or will agree
+4. Personal agendas might silence opinions
+5. Harder to analyse recordings because of different voices
+
 _ _ _
 ## Software Processes
 _ _ _
