@@ -287,7 +287,7 @@ _ _ _
     - What are their motivations
     - How they behave
     - How they think
-3. Informtheproductdesign 
+3. Inform the product design 
     - Ideation
     - Validation of design concepts
 
@@ -562,13 +562,17 @@ _ _ _
 
 ### Card sorting
 1. Useful to understand implicit classification criteria
-2. One concept percard(textorpicture)
-3. Stakeholderpartitionsthecardsintosubsets
+2. One concept per card (text or picture)
+3. Stakeholder partitions the cards into subsets
     - Why those groups?
 4. Useful to design simple interfaces
     - Pieces of info needed for certain tasks
         - What info does an instructor need to take the roll VS to request for a fill-in?
 5. How do you group options in interfaces?
+
+* External Source:
+1. Card sorting is a method used to help design or evaluate the information architecture of a site.
+2. In a card sorting session, participants, here are the stakeholders organize topics into categories that make sense to them and they may also help to label these groups. To conduct a card sort, you can use actual cards, pieces of paper, or one of several online card-sorting software tools.
 
 ### Observation and ethnographic studies
 1. Observing someone doing their job might help understand the problem
@@ -1144,7 +1148,8 @@ General technical writing applied to RE – Identify the audience and write acco
 ### Errors in requirements
 1. Omission
     - Problem space aspect feature not stated by any requirement
-        - Missing objective, requirement or assumption • Unstated software response to some input
+        - Missing objective, requirement or assumption 
+        - Unstated software response to some input
     - Very hard to detect
         - No requirement about the expected state of train doors in case of emergency stop
 2. Contradiction
