@@ -1114,11 +1114,12 @@ _ _ _
     - Semi-formal – e.g. domain diagrams
     - Formal – e.g. logic or maths based languages
 
-### Natural language • Firstobviouschoice
-1. Pros
+### Natural language
+1. First obvious choice
+2. Pros
     - No limitations in expressiveness
     - No communication barrier – No special training required
-2. Cons
+3. Cons
     - Inherently ambiguous
     - Prone to many types of defect types 
         - Errors – jeopardise the project, failure 
@@ -1270,3 +1271,128 @@ _ _ _
 2. At development time
     - Digital prototype will be replicated for the final system
         - During the sprints
+
+_ _ _
+## Inconsistent requirements
+_ _ _
+
+### Inconsistencies in requirements
+1. Multiple viewpoints and concerns
+2. Must be detected
+3. May be useful to identify hidden requirements
+4. Eventually, they need to be solved
+
+### Types of inconsistencies
+1. Terminology clash
+    - Same concept different names
+2. Talking about organising meetings:
+    - Attendants to the meeting...
+        - ... somewhere else...
+    - Participants to the meeting...
+3. Designation clash
+    - Same name different concepts
+4. Talking about organising meetings:
+    - The meeting shall be cancelled if participants decline the invitation
+        - ... somewhere else...
+    - Participants that cannot attend the meeting will be sent agenda and minutes
+5. Structure clash
+    - Same concept different structures
+6. Talking about organising meetings:
+    - Two different stakeholders talking about available times
+        - Monday between 11am and 3.30pm
+        - 30-minute slots on Monday at 9.30am and 1pm
+7. Strong conflict
+    - Always inconsistent when considered together 
+    - In logic: R1 AND R2 is always FALSE
+8. Talking about organising meetings:
+    - The constraints of a participant may not be disclosed to anyone else
+        - ... somewhere else...
+    - The meeting initiator should know the participants’ constraints
+9. Weak conflict
+    - Not always inconsistent together
+    - Unless a Boundary Condition (must be feasible) happens 
+        - Then it becomes a strong conflict
+10. Talking about a library system
+    - A borrower shall return a borrowed book within two weeks
+        - ... somewhere else...
+    - A borrower should keep a borrowed book as long as they need it
+        - What if they need the borrowed book longer than two weeks?
+
+### Handling inconsistencies
+1. Terminology, designation and structure clashes
+    - Glossary of terms
+    - Everyone agrees and follows
+        - Following processes is sometimes problematic 
+    - Precise and clear definition
+    - Include accepted synonyms if needed
+    - During elicitation of requirements
+2. Strong and weak conflicts harder to solve
+    - Look at the causes
+3. Typical causes
+    - Inherent requirements incompatibilities
+        - Security vs usability
+        - Confidentiality vs accountability 
+    - Conflicting viewpoints
+        - Different goals and priorities
+        - Understand the motivation of requirements
+
+### Why are there viewpoints? 
+1. Large projects
+    - E.g. Student management system
+        - Enrolments,payments,history,subjectmanagement,alumni...
+    - Partial expertise
+        - Partial uses of the system
+    - Need to talk to many stakeholders
+2. Each stakeholder is absolutely certain that 
+    - their problem is the hardest
+    - the most critical to solve
+    - they are absolutely right
+    - everyone else can wait 
+3. Expect multiple viewpoints
+    - Strong opinions
+
+### Dealing with conflicting viewpoints
+1. Identify the key stakeholders
+2. Determine win conditions
+3. Identify risks and uncertainties of win conditions
+4. Negotiate with everyone to seek 
+    - A set of Win-Win conditions
+        - Satisfies the needs of as many people as possible 
+    - Including for the development team
+        - You work under realistic constraints 
+            - Resources and deadlines
+
+### For negotiations
+1. Identify non-conflicting areas for all stakeholders
+    - Stakeholders agree and are happy about the requirements
+    - Necessary to establish the starting point for negotiation
+2. Identify conflicting requirements
+    - Stakeholders have different (clashing) opinions
+3. Do not try to decide for the clients
+    - You do not want to work against stakeholders
+4. Present conflicts to decision makers (somebody senior)
+    - They need to resolve and come up with a consistent set of requirements
+
+### Democratic decisions
+1. All stakeholders work together for a successful project
+2. Make everyone vote to resolve the conflicting requirements
+    - Also puts in perspective the importance of requirements
+3. Each stakeholder has a number of limited resources
+    - Sticky dots, $100, developers...
+4. Assign a number of dots to important requirements
+5. Once placed, they cannot be reused
+6. Count the stickers to determine priorities
+
+### Hints on negotiation
+1. It's not a competition or a fight
+    - Not winners vs losers
+2. Everyone needs to feel they have won – to some extent
+3. Be creative and think out of the box
+    - How to achieve everybody’s goals at the same time?
+4. Listen other parties for real
+    - Empathise and understand their needs
+    - Don’t wait for a silence to pop out your prepared answer
+5. Focus on the other party's interests
+    - No hard positions if you want to avoid conflict
+6. It's not personal, focus on the problem
+7. When a decision is made, commit and move on
