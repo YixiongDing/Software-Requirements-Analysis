@@ -453,7 +453,7 @@ Three levels:
 3. Design first for the primary then adjust for the secondary
 
 #### Supplemental
-1. Their needs are represented by a combination of those for
+1. Their needs are represented by a combination of those for primary and secondary personas
 2. No need for further adjustment
 3. Political personas are a good example of this 
     - To address stakeholders assumptions
@@ -971,7 +971,7 @@ Many different templates
 3. Acceptance Criteria
     - Goes with the user stories
     - Given [some precondition], when [I do some action] then [expected result]
-    - The developer of the user story uses to decide when theyarereadyto pass on the code for testing
+    - The developer of the user story uses to decide when they are ready to pass on the code for testing
 4. Acceptance Test
     - At the end of other testing
     - OO analogy
@@ -1015,7 +1015,7 @@ _ _ _
 ### Requirements taxonomies 
 1. Many types of non-functional requirements
     - A taxonomy is useful 
-2. Taxonomiescanhelp
+2. Taxonomies can help
     - Identify hidden requirements
         - Do I have any confidentiality requirements in the system?
     - Identify conflicts between requirements
@@ -1269,7 +1269,8 @@ General technical writing applied to RE
 5. Measureability
     - Requirements formulated at a level of precision that enables
         - evaluation of alternatives
-        - verify satisfaction by an implementation • users to determine acceptance
+        - verify satisfaction by an implementation 
+        - users to determine acceptance
 6. Pertinence
     - Requirements model elements of the problem space, not elements of the solution space
     - All requirements contribute to the satisfaction of objectives of the system-to-be
