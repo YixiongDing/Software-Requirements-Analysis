@@ -1227,14 +1227,33 @@ General technical writing applied to RE
 
 ### Flaws in requirements
 1. Noise
+    - Requirement conveys no information on any problem world feature
+        - Every train car will be equipped with a software-controlled information panel together with non-smoking signs posted on every window
 2. Overspecification
+    - Requirement stating a feature not pertaining to the problem space but to the solution space
+    - Peopletendtothinkintermsofsolutionstraightaway
+        - The setAlarm method must be invoked on receipt of a stopAlarm message
 3. Unfeasibility
+    - equirement that cannot be realistically implemented within the assigned budget, schedule or development platform
+        - The meeting scheduler will also make travel arrangements such as flight, car and hotel reservations for every participant who needs to travel to attend the meeting
 4. Unintelligibility
+    - Requirement stated in an incomprehensible way for those who need to use it 
+        - A requirement statement containing five acronyms
 5. Poor structuring
+    - Requirements not organized according to any sensible and visible structuring rule
+        - Intertwining of book acquisition and loan management aspects
 6. Forward reference
+    - Requirement making use of problem space features that are not defined yet
+        - Multiple uses of the concept of ‘participating in a meeting’ in the requirements document and then, several pages later, the definition “A person participates in a meeting if he or she attends that meeting from beginning to end”
 7. Remorse
+    - Requirement stating a problem world feature too late or incidentally
+        - After multiple uses of the undefined concept of ‘participating in a meeting’, the last one is directly followed by an incidental definition between brackets such as (a person participates in a meeting if he or she attends that meeting from beginning to end)
 8. Poor modifiability
+    - Requirements whose modification may need to be globally propagated throughout the specification
+        - Use of fixed numerical values for quantities throughout the requirements document (e.g. for maximum loan period, meeting notification deadline or train speed thresholds), when such values are subject to change over time or from one variant to another
 9. Opacity
+    - Requirement whose rationale, authoring or dependencies are invisible
+        - “The commanded speed of a train must always be at least 7 mph above its physical speed”, without any contextual information about the origin of and rationale for this requirement, and its impact on other requirements
 
 _ _ _
 ## Digital prototypes
