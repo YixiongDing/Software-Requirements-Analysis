@@ -1064,7 +1064,7 @@ For interaction with devices or existing software components, interoperability r
 - The meeting scheduling software should be interoperable with the WSS Agenda Manager product.
 
 #### Accuracy
-Accuracyrequirementsarequalityrequirements that constrain the state of the information processed by the software to reflect the state of the corresponding physical information in the environment accurately.
+Accuracy requirements are quality requirements that constrain the state of the information processed by the software to reflect the state of the corresponding physical information in the environment accurately.
 - A copy of a book shall be stated as available by the loan software if and only if it is actually available on the library shelves.
 - The information about train positions used by the train controller shall accurately reflect the actual position of trains up to X metres at most.
 #### Compliance
