@@ -396,7 +396,7 @@ Three levels:
     - Deep drives and motivations
     -  Explains why the user wants to achieve the end goals
         - Live the good life
-        - Succeedinmyambitionsto...
+        - Succeed in my ambitions to...
         - Be attractive, popular, respected...
 4. They won’t directly affect the development but a system that gets people closer to their life goal will be highly successful
 
@@ -411,9 +411,9 @@ Three levels:
 1. Useful to find the behavioural patterns
     - Typically not just demographics
 2. They hold a range of values
-    - E.g.Education: Noeducation, Secondary, Undergrad, Postgrad, PhD
+    - E.g. Education: No education, Secondary, Undergrad, Postgrad, PhD
         - Discrete values
-    - E.g.Computer use skill: Value between not at all to highly skilled
+    - E.g. Computer use skill: Value between not at all to highly skilled
         - Continuous 
 3. Look at
     - Activities: what the user does, how often
