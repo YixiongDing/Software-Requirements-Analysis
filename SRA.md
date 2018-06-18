@@ -256,7 +256,7 @@ _ _ _
     - From interview analysis
     - From other elicitation mechanisms 
         - E.g. do, be, feel lists
-2. Review as a teamf or
+2. Review as a team for
     - Ambiguities – multiple interpretations
     - Redundancy
     - Need for clarification
@@ -808,7 +808,7 @@ _ _ _
 
 ### User stories in the product backlog
 1. User stories relate directly to user’s required features
-    - E.g. compare “buyabook” vs “login”
+    - E.g. compare “buy a book” vs “login”
 2. There are standard formats, for instance
     - [num] As a [role], I want to [do something], so that [I get some benefit] [Weight]
         - IDs are good to refer to items in lists of user stories, quality requirements... 
@@ -826,7 +826,7 @@ _ _ _
 2. Given that the account has credit And the card is valid And the dispenser contains notes, When the customer requests the cash Then ensure the account is debited And ensure cash is dispensed And ensure the card is returned.
 
 #### Sizes of user stories
-1. User stories have story points(orsizes, weights)
+1. User stories have story points (or sizes, weights)
     - How much effort is associated to its implementation
     - Many metrics for story points
         - E.g. Fibonacci numbers, T-shirt sizes
@@ -958,7 +958,7 @@ Many different templates
 4. Do not use meaningless data
 5. Do not move too quickly between screens
 6. Avoid technical hiccups – practice beforehand in the same environment if possible
-    - E.g.Screenconnectors
+    - E.g. Screen connectors
 7. Don’t hide problems, but describe known bugs beforehand
     - “Oh yeah, I knew that might happen...”
 8. Don’t argue/agree with the client, just record and come back to them later
@@ -998,7 +998,7 @@ _ _ _
         - E.g. Security VS Usability or Performance
 3. Other less traditional non-functional requirements?
     - Have fun, feel challenged, recognised, popular, in touch...
-    - Instagram minus social/emotional requirements?
+    - Instagram minus social / emotional requirements?
 
 ### Value driven requirement engineering
 ### Non-functional requirements
@@ -1077,7 +1077,7 @@ Compliance requirements prescribe software effects on the environment to conform
 2. Installation constraints to ensure that the software-to- be will run smoothly on the target implementation platform.
     - The meeting scheduling software should run on Windows version X.x and Linux version Y.y.
 #### Development
-Developmentrequirementsdonotconstrainthe way the software should satisfy its functional requirements but rather the way it should be developed. These include requirements on development costs, delivery schedules, variability of features, maintainability, reusability, portability and the like.
+Development requirements do not constrain the way the software should satisfy its functional requirements but rather the way it should be developed. These include requirements on development costs, delivery schedules, variability of features, maintainability, reusability, portability and the like.
 - The overall cost of the new UWON library software should not exceed X.
 - The train control software should be operational within two years.
 
@@ -1421,38 +1421,34 @@ _ _ _
 ### Types of inconsistencies
 1. Terminology clash
     - Same concept different names
-2. Talking about organising meetings:
-    - Attendants to the meeting...
-        - ... somewhere else...
-    - Participants to the meeting...
-3. Designation clash
+    - Talking about organising meetings:
+        - Attendants to the meeting...
+        - Participants to the meeting...
+2. Designation clash
     - Same name different concepts
-4. Talking about organising meetings:
-    - The meeting shall be cancelled if participants decline the invitation
-        - ... somewhere else...
-    - Participants that cannot attend the meeting will be sent agenda and minutes
-5. Structure clash
+    - Talking about organising meetings:
+        - The meeting shall be cancelled if participants decline the invitation
+        - Participants that cannot attend the meeting will be sent agenda and minutes
+3. Structure clash
     - Same concept different structures
-6. Talking about organising meetings:
-    - Two different stakeholders talking about available times
-        - Monday between 11am and 3.30pm
-        - 30-minute slots on Monday at 9.30am and 1pm
-7. Strong conflict
+    - Talking about organising meetings:
+        - Two different stakeholders talking about available times
+            - Monday between 11am and 3.30pm
+            - 30-minute slots on Monday at 9.30am and 1pm
+4. Strong conflict
     - Always inconsistent when considered together 
     - In logic: R1 AND R2 is always FALSE
-8. Talking about organising meetings:
-    - The constraints of a participant may not be disclosed to anyone else
-        - ... somewhere else...
-    - The meeting initiator should know the participants’ constraints
-9. Weak conflict
+    - Talking about organising meetings:
+        - The constraints of a participant may not be disclosed to anyone else
+        - The meeting initiator should know the participants’ constraints
+5. Weak conflict
     - Not always inconsistent together
     - Unless a Boundary Condition (must be feasible) happens 
         - Then it becomes a strong conflict
-10. Talking about a library system
-    - A borrower shall return a borrowed book within two weeks
-        - ... somewhere else...
-    - A borrower should keep a borrowed book as long as they need it
-        - What if they need the borrowed book longer than two weeks?
+    - Talking about a library system
+        - A borrower shall return a borrowed book within two weeks
+        - A borrower should keep a borrowed book as long as they need it
+            - What if they need the borrowed book longer than two weeks?
 
 ### Handling inconsistencies
 1. Terminology, designation and structure clashes
@@ -1475,7 +1471,7 @@ _ _ _
 ### Why are there viewpoints? 
 1. Large projects
     - E.g. Student management system
-        - Enrolments,payments,history,subjectmanagement,alumni...
+        - Enrolments, payments, history, subject management, alumni...
     - Partial expertise
         - Partial uses of the system
     - Need to talk to many stakeholders
