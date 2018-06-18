@@ -1140,7 +1140,8 @@ _ _ _
         - Flaws – delay the project
 
 ### Stylistic rules for natural language specification
-General technical writing applied to RE – Identify the audience and write accordingly
+General technical writing applied to RE 
+- Identify the audience and write accordingly
 - Say what you are going to do before doing it – Motivate first, summarize after
 - Define concepts before using them
 - One requirement per sentence
@@ -1175,22 +1176,54 @@ General technical writing applied to RE – Identify the audience and write acco
     - Requirement allowing a problem space feature to be interpreted in different ways – e.g. ambiguous term or statement.
         - Train doors shall be opened as soon as the train is stopped at a platform
             - The front of the train is (stopped) at a platform or The whole train is (stopped) at a platform?
-    - Unmeasurability
-        - Requirement stating a problem world feature in a way that cannot be precisely compared with alternative options, or cannot be tested or verified in machine solutions
-            - Information panels inside trains shall be user-friendly
+5. Unmeasurability
+    - Requirement stating a problem world feature in a way that cannot be precisely compared with alternative options, or cannot be tested or verified in machine solutions
+        - Information panels inside trains shall be user-friendly
 
 ### Quality factors in requirements
 1. Completeness
+    - Requirement documentation is sufficient to ensure that the system-to-be will satisfy all its objectives
+        - Including quality goals
+    - Dedicated requirement to prevent undesirable effects
+        - Incidental or intended
+    - Describe the output for all possible inputs
+    - Sufficient detail to allow for development
 2. Consistency
+    - Compatibility of all requirements, assumptions and domain properties
 3. Adequacy
+    - Requirements address the actual needs system-to- be
+        - Explicitly or implicitly expressed by stakeholders 
+    - Correctly describe laws in the problem space
+        - Environmental assumptions must be realistic
 4. Unambiguity
+    - Requirements formulated in a way that has only one interpretation
+    - Terms are defined and used consistently
 5. Measureability
+    - Requirements formulated at a level of precision that enables
+        - evaluation of alternatives
+        - verify satisfaction by an implementation • users to determine acceptance
 6. Pertinence
+    - Requirements model elements of the problem space, not elements of the solution space
+    - All requirements contribute to the satisfaction of objectives of the system-to-be
 7. Feasibility
+    - Requirements must be realizable
+        - In terms of budget, schedule and technology constraints
 8. Comprehensibility
+    - Formulation of requirements, assumptions and domain properties must be understandable by the people who need to use them
 9. Good structuring
+    - The requirements document structure should reflect relations between requirements
+        - refinement or specialization
+        - dependency
+        - ...
+    - The definition of a term must precede its use
 10. Modifiability
+    - Modifications to documents should be kept as local as possible
 11. Traceability
+    - Context of requirements should be easy to retrieve
+        - Rationale for creation, modification or use
+        - Impact of creating, modifying or deleting
+            - Dependency within requirements documents
+            - Dependency with later artefacts – design, code, tests...
 
 ### Flaws in requirements
 1. Noise
