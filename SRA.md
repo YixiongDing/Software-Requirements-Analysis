@@ -440,7 +440,8 @@ Three levels:
 #### Primary
 1. Main target, one per interface
     -  E.g. healthcare IS, one for medical, one for financial
-2. The primary person must be satisfied with the design • Other personas will not be dissatisfied
+2. The primary person must be satisfied with the design 
+    - Other personas will not be dissatisfied
 3. If unclear which one is the primary persona, define multiple interfaces
 4. If there are several primary personas for a customer product, the scope is too broad
 5. The primary persona is not necessarily the largest segment market
@@ -585,7 +586,7 @@ _ _ _
 
 ### Observation and ethnographic studies
 1. Observing someone doing their job might help understand the problem
-    - E.g.Explainhowtotieshoelaces
+    - E.g. Explain how to tie shoe laces
 2. Great to elicit tacit knowledge
 3. Appropriate in complex organisations or different cultural contexts
 4. Passive vs Active observation
@@ -807,7 +808,7 @@ _ _ _
 
 ### User stories in the product backlog
 1. User stories relate directly to user’s required features
-    - E.g.compare“buyabook”vs“login”
+    - E.g. compare “buyabook” vs “login”
 2. There are standard formats, for instance
     - [num] As a [role], I want to [do something], so that [I get some benefit] [Weight]
         - IDs are good to refer to items in lists of user stories, quality requirements... 
@@ -1118,7 +1119,7 @@ _ _ _
 ### Specifying requirements
 1. Elicited requirements
     – Precisely specified and documented
-2. Aboutthesystem-to-be
+2. About the system-to-be
 3. Help discussion between 
     - Clients
     - Development team
