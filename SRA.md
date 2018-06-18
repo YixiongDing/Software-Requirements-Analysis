@@ -983,6 +983,10 @@ Many different templates
 _ _ _
 ## Quality requirements
 _ _ _
+
+### Content Map
+<img src="content_map_quality.png" alt="550" width="550">
+
 ### Types of requirements 
 1. Functional
     -  What should the system do?
@@ -1056,10 +1060,26 @@ Interface requirements are quality requirements that constrain the phenomena sha
     - To ensure smooth and comfortable train moves, the difference between the accelerations in two successive commands sent to a train should be at most X.
 
 #### Interoperability
+For interaction with devices or existing software components, interoperability requirements prescribe input/output formats and interaction protocols that enable effective cooperation with those environmental components.
+- The meeting scheduling software should be interoperable with the WSS Agenda Manager product.
+
 #### Accuracy
+Accuracyrequirementsarequalityrequirements that constrain the state of the information processed by the software to reflect the state of the corresponding physical information in the environment accurately.
+- A copy of a book shall be stated as available by the loan software if and only if it is actually available on the library shelves.
+- The information about train positions used by the train controller shall accurately reflect the actual position of trains up to X metres at most.
 #### Compliance
+Compliance requirements prescribe software effects on the environment to conform to national laws, international regulations, social norms, cultural or political constraints, standards and the like.
+- The value for the worst-case stopping distance between successive trains shall be compliant with international railways regulations.
+- The meeting scheduler shall by default exclude official holidays associated with the target market.
 #### Architectural
+1. Distribution constraints on software components to fit the geographically distributed structure of the host organization, the distribution of data to be processed, or the distribution of devices to be controlled.
+    - The on-board train controllers shall handle the reception and proper execution of acceleration commands sent by the station computer.
+2. Installation constraints to ensure that the software-to- be will run smoothly on the target implementation platform.
+    - The meeting scheduling software should run on Windows version X.x and Linux version Y.y.
 #### Development
+Developmentrequirementsdonotconstrainthe way the software should satisfy its functional requirements but rather the way it should be developed. These include requirements on development costs, delivery schedules, variability of features, maintainability, reusability, portability and the like.
+- The overall cost of the new UWON library software should not exceed X.
+- The train control software should be operational within two years.
 
 ### ISO/IEC 25010:2011
 1. ISO – International Organisation for Standardisation
@@ -1075,13 +1095,61 @@ Interface requirements are quality requirements that constrain the phenomena sha
 
 ### Software product quality model 
 #### Functional suitability
+- The degree to which the product provides functions that meet stated and implied needs when the product is used under specified conditions
+    - Suitability
+    - Accuracy
+    - Interoperability 
+    - Security
+    - Compliance
 #### Reliability
+- The degree to which a system or component performs specified functions under specified conditions for a specified period of time
+    - Maturity
+    - Fault Tolerance
+    - Recoverability
+    - Compliance
 #### Operability
+- The degree to which the product has attributes that enable it to be understood, learned, used and attractive to the user, when used under specified conditions
+    - Appropriateness 
+    - Recognisability 
+    - Ease of use
+    - Learnability
+    - Attractiveness
+    - Technical accessibility 
+    - Compliance
 #### Performance efficiency
+- The performance relative to the amount of resources used under stated conditions
+    - Time Behaviour
+    - Resource Utilisation
+    - Compliance
 #### Security
+- The degree of protection of information and data so that unauthorized persons or systems cannot read or modify them and authorized persons or systems are not denied access to them
+    - Confidentiality
+    - Integrity
+    - Non-repudiation
+    - Accountability
+    - Authenticity
+    - Compliance
 #### Compatibility
+- The degree to which two or more systems or components can exchange information and/or perform their required functions while sharing the same hardware or software environment
+    - Replaceability
+    - Co-existence
+    - Interoperability
+    - Compliance
 #### Maintainability
+- The degree of effectiveness and efficiency with which the product can be modified
+    - Modularity
+    - Reusability
+    - Analyzability
+    - Changeability
+    - Modification stability 
+    - Testability
+    - Compliance
 #### Transferability
+- The degree to which a system or component can be effectively and efficiently transferred from one hardware, software or other operational or usage environment to another
+    - Portability
+    - Adaptability
+    - Installability
+    - Compliance
 
 ### Software quality in use
 #### Effectiveness 
@@ -1231,7 +1299,7 @@ General technical writing applied to RE
         - Every train car will be equipped with a software-controlled information panel together with non-smoking signs posted on every window
 2. Overspecification
     - Requirement stating a feature not pertaining to the problem space but to the solution space
-    - Peopletendtothinkintermsofsolutionstraightaway
+    - People tend to think in terms of solution straight away
         - The setAlarm method must be invoked on receipt of a stopAlarm message
 3. Unfeasibility
     - equirement that cannot be realistically implemented within the assigned budget, schedule or development platform
