@@ -46,7 +46,7 @@ Explain the three types of interviews described in the lectures. Then, give an e
 2. Unstructured interviews
     - An interview schedule might not be used, and even if one is used, they will contain open-ended questions that can be asked in any order. Some questions might be added / missed as the Interview progresses.
 
-    -Situation: Jon interview, The employer may review your records beforehand, then ask questions related to your previous experience.
+    - Situation: Jon interview, The employer may review your records beforehand, then ask questions related to your previous experience.
 
 3. Semi-structured interviews
     - While a structured interview has a rigorous set of questions which does not allow one to divert, a semi-structured interview is open, allowing new ideas to be brought up during the interview as a result of what the interviewee says. The interviewer in a semi-structured interview generally has a framework of themes to be explored.
